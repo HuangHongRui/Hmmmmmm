@@ -1,0 +1,25 @@
+{
+  "name": "hmmmmmm",
+  "version": "0.0.1",
+  "description": "Simple Methods",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuangHongRui/Hmmmmmm.git"
+  },
+  "keywords": [
+    "Leo",
+    "Hmmmmmm",
+    "Web",
+    "Methods"
+  ],
+  "author": "Leo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HuangHongRui/Hmmmmmm/issues"
+  },
+  "homepage": "https://github.com/HuangHongRui/Hmmmmmm#readme"
+}
