@@ -1,2 +1,5 @@
 # 依赖
 node_modules/
+
+# 库
+lib/
