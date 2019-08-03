@@ -1,20 +1,19 @@
-## 介绍
+<h1 align="left"><a href="https://github.com/HuangHongRui/Hmmmmmm#">Hmmmmmm</a></h1>
 
-1. 应该会是一个 Methods 库..
+:alien: 应该会是一个 Methods 库...
 
-## 依赖
-
-1. NPM地址：即将发布 :)
+[![npm version](https://img.shields.io/npm/v/hmmmmmm.svg?color=0cf)](https://www.npmjs.com/package/hmmmmmm) 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?color=ff69b4)](https://github.com/HuangHongRui/Hmmmmmm/blob/master/LICENSE) 
 
 ## 语言
 
-1. `JavaScript`
-2. `TypeScript`
+- `TypeScript`
 
 ## 使用
 
-1. 命令：`webpack` 打包
+- `import Hmmmmm from 'hmmmmmm'`
 
-## 文档
+## 包含
 
-1. 暂无
+1. 滚动条距离窗口底部触发.
+2. 字符（中文|半角|圆角）统一长度
