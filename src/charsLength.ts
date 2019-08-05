@@ -6,13 +6,13 @@
  *  @returns {String | Boolean} 超限制:字符串 | 没超限制:True
  */
 
-export default function charsLength(str, len) {
+export function charsLength(str: string, len: number) {
 
   const 中文 = new RegExp('[\u4e00-\u9fa5]');
   const 半角 = new RegExp('[\u0000-\u00ff]');
-  const 全角 = (item) => item && item.charCodeAt() > 128;
+  const 全角 = (item: string) => item && item.charCodeAt(0) > 128;
   let strCharsLength = 0;
-  let splitLen = false;
+  let splitLen: boolean | number = false;
 
   for (let i = 1; i <= str.length; i++) {
 

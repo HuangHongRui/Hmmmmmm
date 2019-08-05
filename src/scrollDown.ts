@@ -6,7 +6,7 @@
  *  @param {Number} dist
  */
 
-function getScrollTop(className) {
+function getScrollTop(className: string) {
 
   let scrollTop;
   if (className) {
@@ -18,7 +18,7 @@ function getScrollTop(className) {
 
 }
 
-function getWindowHeight(className) {
+function getWindowHeight(className: string) {
 
   let windowHeight;
   if (className) {
@@ -30,7 +30,7 @@ function getWindowHeight(className) {
 
 }
 
-function getScrollHeight(className) {
+function getScrollHeight(className: string) {
 
   let scrollHeight;
   if (className) {
@@ -42,7 +42,7 @@ function getScrollHeight(className) {
 
 }
 
-export default function scrollDown(className, handle, dist = 100) {
+export function scrollDown(className: string, handle: Function, dist = 100) {
 
   const scrollTopWindowHeight = getScrollTop(className) + getWindowHeight(className);
   const scrollHeight = getScrollHeight(className) - dist;
