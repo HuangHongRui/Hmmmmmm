@@ -19,3 +19,9 @@
 
 1. 滚动条距离窗口底部触发.
 2. 字符（中文|半角|圆角）统一长度
+
+
+## License
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHuangHongRui%2FHmmmmmm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FHuangHongRui%2FHmmmmmm?ref=badge_large)
