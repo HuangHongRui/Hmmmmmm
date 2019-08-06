@@ -11,7 +11,9 @@
 
 ## 使用
 
-- `import Hmmmmm from 'hmmmmmm'`
+- `import * as Hmmmmm from 'hmmmmmm'`
+- `import { demo } from 'hmmmmmm'`
+
 
 ## 包含
 

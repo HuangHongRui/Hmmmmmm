@@ -8,7 +8,6 @@ module.exports = {
     filename: 'index.js',
     library: 'Hmmmmmm',
     libraryTarget: 'umd',
-    libraryExport: 'default'
   },
   resolve: {
     extensions: ['.ts', '.tsx']
